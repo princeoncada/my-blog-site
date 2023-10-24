@@ -1,0 +1,85 @@
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #F3F9FB;
+  flex-grow: 1;
+  gap: 20px;
+}
+main form {
+  margin-top: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  gap: 0.2rem;
+}
+main form label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: bold;
+}
+main form input[type=text],
+main form input[type=date],
+main form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+main form textarea {
+  height: 100px;
+}
+main form button {
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+main form button:hover {
+  background-color: #2980b9;
+}
+main .filter {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+main .filter label {
+  font-size: 16px;
+  font-weight: bold;
+  display: block;
+}
+main .filter select {
+  padding: 4px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.posts {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 20px;
+  grid-gap: 20px;
+  width: 80%;
+}
+
+/*# sourceMappingURL=BlogPost.css.map */

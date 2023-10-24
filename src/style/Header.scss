@@ -1,0 +1,15 @@
+header {
+    background-color: #113F67;
+    padding: 20px 0;
+
+    .links {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        .link {
+            text-decoration: none;
+            color: #F3F9FB;
+        }
+    }
+}

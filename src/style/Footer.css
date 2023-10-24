@@ -1,0 +1,11 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0;
+  background-color: #113F67;
+  color: #F3F9FB;
+  gap: 5px;
+}
+
+/*# sourceMappingURL=Footer.css.map */

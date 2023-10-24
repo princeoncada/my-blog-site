@@ -1,0 +1,65 @@
+/* Styling for the Post component */
+.post {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  min-width: 40%;
+}
+.post .post-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.post-edit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.post-edit input[type=text],
+.post-edit input[type=date],
+.post-edit textarea {
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  width: 50%;
+}
+.button-container button {
+  flex: 1;
+  padding: 8px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 700;
+}
+.button-container .red {
+  color: #fff;
+  background-color: #9b0000;
+  transition: background-color 0.3s;
+}
+.button-container .red:hover {
+  background-color: #ff3333;
+  transition: background-color 0.3s;
+}
+.button-container .green {
+  color: #fff;
+  background-color: #018001;
+  transition: background-color 0.3s;
+}
+.button-container .green:hover {
+  background-color: #008f00;
+  transition: background-color 0.3s;
+}
+
+/*# sourceMappingURL=Post.css.map */
